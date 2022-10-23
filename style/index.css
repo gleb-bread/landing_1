@@ -29,6 +29,9 @@ body {
   display: none;
   cursor: pointer;
 }
+.header__menu__logo {
+  cursor: pointer;
+}
 .header__menu__logo > img {
   color: rgb(0, 0, 0);
   width: 56px;
@@ -43,6 +46,9 @@ body {
   max-width: 250px;
   color: rgb(0, 3, 48);
   text-decoration: none;
+}
+.header__menu__link:hover {
+  color: rgba(0, 3, 48, 0.5);
 }
 
 .hero {
@@ -628,8 +634,10 @@ body {
   font-size: 18px;
   border: 1px solid rgba(0, 3, 48, 0.3);
 }
-.contact__form__name__input:focus {
-  border: 1px solid #000;
+.contact__form__name__input:active, .contact__form__name__input:hover, .contact__form__name__input:focus {
+  outline: 0;
+  outline-offset: 0;
+  border: 1px solid #6E7F80;
 }
 .contact__form__name__icon {
   position: absolute;
@@ -665,6 +673,11 @@ body {
   font-size: 18px;
   border: 1px solid rgba(0, 3, 48, 0.3);
 }
+.contact__form__mail__input:active, .contact__form__mail__input:hover, .contact__form__mail__input:focus {
+  outline: 0;
+  outline-offset: 0;
+  border: 1px solid #6E7F80;
+}
 .contact__form__mail__icon {
   position: absolute;
   right: 20px;
@@ -694,6 +707,11 @@ body {
   font-size: 18px;
   border: 1px solid rgba(0, 3, 48, 0.3);
   margin-bottom: 50px;
+}
+.contact__form__text:active, .contact__form__text:hover, .contact__form__text:focus {
+  outline: 0;
+  outline-offset: 0;
+  border: 1px solid #6E7F80;
 }
 .contact__form__btn {
   max-width: 400px;
@@ -764,6 +782,10 @@ body {
   font-weight: 300;
   font-size: 22px;
   border: 1px solid rgba(0, 3, 48, 0.3);
+}
+.footer__news__mail__input:active, .footer__news__mail__input:hover, .footer__news__mail__input:focus {
+  outline: 0;
+  outline-offset: 0;
 }
 .footer__news__mail__btn {
   position: absolute;
