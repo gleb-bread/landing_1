@@ -6,6 +6,7 @@ body {
 .header {
   position: fixed;
   width: 100%;
+  z-index: 10;
 }
 .header__container {
   height: 100px;
@@ -803,6 +804,26 @@ body {
   font-weight: 300;
 }
 
+.btn__come_start {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: rgba(0, 3, 48, 0.15) 0px 4px 8px;
+}
+.btn__come_start > a > svg {
+  fill: rgb(177, 137, 48);
+  height: 40px;
+  width: 40px;
+}
+
 @media (max-width: 1600px) {
   .header__container {
     max-width: 1100px;
@@ -1027,6 +1048,14 @@ body {
   .contact__form__btn {
     justify-content: start;
   }
+  .btn__come_start {
+    width: 65px;
+    height: 65px;
+  }
+  .btn__come_start > a > svg {
+    height: 45px;
+    width: 45px;
+  }
 }
 @media (max-width: 920px) {
   .prossec__cart__arrow {
@@ -1037,6 +1066,9 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .header {
+    background-color: #fff;
+  }
   .header__container {
     max-width: 80%;
   }
@@ -1059,6 +1091,7 @@ body {
   }
   .hero__title__text > p {
     font-size: 14px;
+    line-height: 24px;
   }
   .hero__btns {
     max-width: 320px;
@@ -1162,6 +1195,14 @@ body {
   }
   .footer__news__mail__btn {
     font-size: 16px;
+  }
+  .btn__come_start {
+    width: 55px;
+    height: 55px;
+  }
+  .btn__come_start > a > svg {
+    height: 35px;
+    width: 35px;
   }
 }
 @media (max-width: 480px) {
