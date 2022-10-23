@@ -1,0 +1,149 @@
+.contact
+    font-family: 'Montserrat', sans-serif
+    &__container
+        max-width: 1500px
+        width: 100%
+        display: flex
+        margin: auto
+        justify-content: space-between
+        padding: 150px 0
+    &__list
+        width: 70%
+        display: flex
+        flex-direction: column
+        &__title
+            margin-bottom: 20px
+            &>h2
+                font-weight: 700
+                font-size: 44px
+        &__desription
+            list-style: none
+            padding: 0
+            margin-bottom: 80px
+        &__item
+            font-weight: 300
+            font-size: 20px
+            line-height: 1.4
+            margin-bottom: 8px
+            &-title
+                margin-bottom: 24px
+            &-phone, &-mail
+                text-decoration: none
+                color: #000
+            &-phone:hover, &-mail:hover
+                color: #000
+        &__links
+            align-self: center
+            max-width: 250px
+            width: 100%
+            &__title
+                margin-bottom: 20px
+                &>h2
+                    font-weight: 300
+                    font-size: 24px
+                    line-height: 1.4
+            &__icons
+                max-width: 250px
+                display: flex
+                justify-content: space-between
+                width: 100%
+                &-item
+                    display: block
+                    &>svg
+                        fill: rgb(177, 137, 48)
+                        width: 30px
+                        height: 30px
+    &__form
+        display: flex
+        max-width: 30%
+        width: 100%
+        &__action
+            width: 100%
+            display: flex
+            flex-direction: column
+        &__input
+            display: block
+        &__name
+            position: relative
+            display: flex
+            flex-direction: column
+            max-width: 400px
+            &__input
+                max-width: 400px
+                width: 100%
+                height: 50px
+                border-radius: 50px
+                padding: 7px 40px 7px 20px
+                font-weight: 300
+                font-size: 18px
+                border: 1px solid rgba(0, 3, 48, 0.3)
+                &:focus
+                    border: 1px solid #000
+            &__icon
+                position: absolute
+                right: 20px
+                top: 10px
+                &>svg
+                    width: 15px
+                    height: 15px
+            &__error
+                display: flex
+                color: red
+                margin: 2px 0
+                visibility: hidden
+                &__icon
+                    margin-right: 5px
+        &__mail
+            position: relative
+            display: flex
+            flex-direction: column
+            max-width: 400px
+            &__input
+                max-width: 400px
+                width: 100%
+                height: 50px
+                border-radius: 50px
+                padding: 7px 40px 7px 20px
+                font-weight: 300
+                font-size: 18px
+                border: 1px solid rgba(0, 3, 48, 0.3)
+            &__icon
+                position: absolute
+                right: 20px
+                top: 10px
+                &>svg
+                    width: 15px
+                    height: 15px
+            &__error
+                display: flex
+                color: red
+                margin: 2px 0
+                visibility: hidden
+                &__icon
+                    margin-right: 5px
+        &__text
+            resize: none
+            box-sizing: border-box
+            max-width: 400px
+            width: 100%
+            border-radius: 30px
+            padding: 25px
+            font-weight: 300
+            font-size: 18px
+            border: 1px solid rgba(0, 3, 48, 0.3)
+            margin-bottom: 50px
+        &__btn
+            max-width: 400px
+            display: flex
+            justify-content: end
+            &__input
+                width: 160px
+                font-weight: 300
+                height: 60px
+                font-size: 18px
+                border: none
+                font-family: 'Montserrat', sans-serif
+                color: white
+                background: linear-gradient(-180deg, rgb(226, 201, 110) 0%, rgb(177, 137, 48) 96%)
+                border-radius: 50px
+                box-shadow: rgb(158 160 166 / 30%) 0px 4px 10px 0px

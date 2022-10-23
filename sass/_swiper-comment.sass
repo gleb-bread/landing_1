@@ -1,0 +1,66 @@
+.swiper-comment
+    font-family: 'Montserrat', sans-serif
+    user-select: none
+    &__wrapper
+        background-color: #000
+        z-index: -3
+        position: relative
+    &__container
+        max-width: 1000px
+        margin: auto
+        height: 500px
+        display: flex
+        flex-direction: column
+        justify-content: center
+    &__carusel
+        position: relative
+        &__filter
+            background-color: rgba(0, 3, 48, 0.6)
+            z-index: -1
+            padding: 100px 0
+        &__bacground-svg
+            flex: 0 0 auto
+            position: absolute
+            top: 40%
+            left: 50%
+            transform: translateX(-50%)
+            z-index: -1
+            &>svg
+                fill: orange
+        &__name
+            color: rgb(255, 255, 255)
+            margin-bottom: 60px
+            width: 100%
+            text-align: center
+            &>span
+                font-weight: 300
+                font-size: 35px
+                line-height: 1.4
+        &__text
+            color: rgb(255, 255, 255)
+            margin-bottom: 0px
+            width: 100%
+            text-align: center
+            &>p
+                font-weight: 700
+                font-size: 44px
+                margin-bottom: 0.3em
+#swiper-comment__carusel > div.carousel-indicators > button.swiper-comment__carusel__btn
+    border-radius: 50%
+    width: 10px
+    height: 10px
+    margin: 0 5px
+    border: none
+    background-color: #fff
+    opacity: .5
+#swiper-comment__carusel > div.carousel-indicators > button.swiper-comment__carusel__btn.active
+    background: linear-gradient( rgb(226, 201, 110) 0%, rgb(177, 137, 48) 96%)
+    border-radius: 50%
+    width: 10px
+    height: 10px
+    margin: 0 5px
+    opacity: 1
+.carousel-indicators
+    top: 100%
+.carousel
+    height: 450px

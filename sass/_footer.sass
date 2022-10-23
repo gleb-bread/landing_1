@@ -1,0 +1,76 @@
+.footer
+    font-family: 'Montserrat', sans-serif
+    &__container
+        padding: 100px 0
+        background: rgb(0, 3, 48)
+    &__brand
+        &__icons
+            max-width: 900px
+            margin: auto
+            display: flex
+            justify-content: space-between
+            &-item
+                max-width: 160px
+                width: 100%
+                &>img
+                    width: 100%
+    &__news
+        padding: 100px 0 0 0
+        max-width: 900px
+        margin: auto
+        display: flex
+        flex-direction: column
+        &__title
+            text-align: center
+            margin-bottom: 35px
+            &>h2
+                font-weight: 700
+                font-size: 45px
+                color: #FFF
+        &__mail
+            align-self: center
+            position: relative
+            max-width: 600px
+            width: 100%
+            &__input
+                max-width: 600px
+                width: 100%
+                height: 50px
+                border-radius: 50px
+                padding: 7px 60px 7px 20px
+                font-weight: 300
+                font-size: 22px
+                border: 1px solid rgba(0, 3, 48, 0.3)
+            &__btn
+                position: absolute
+                right: 0
+                max-width: 160px
+                width: 100%
+                font-weight: 300
+                height: 50px
+                font-size: 18px
+                border: none
+                font-family: 'Montserrat', sans-serif
+                color: white
+                background: linear-gradient(-180deg, rgb(226, 201, 110) 0%, rgb(177, 137, 48) 96%)
+                border-radius: 50px
+                box-shadow: rgb(158 160 166 / 30%) 0px 4px 10px 0px
+            &__error
+                margin-top: 5px
+                display: flex
+                color: red
+                align-items: center
+                font-size: 18px
+                font-weight: 500
+                visibility: hidden
+                &__icon
+                    margin-right: 10px
+    &__license
+        padding-top: 70px
+        max-width: 900px
+        margin: auto
+        text-align: center
+        &>span
+            font-size: 20px
+            color: #FFF
+            font-weight: 300
