@@ -1,4 +1,8 @@
 @media (max-width:480px)
+    .header
+        &__menu
+            &__link
+                font-size: 16px
     .hero
         &__title
             &__text
@@ -7,9 +11,17 @@
                     line-height: 14px
         &__btn
             &__orange
-                width: 100px
+                width: 120px
+                margin-right: 10px
+                &>a
+                    text-decoration: none
             &__light
-                width: 100px
+                width: 120px
+                display: flex
+                justify-content: center
+                align-items: center
+                &>a
+                    text-decoration: none
         &__btns
             max-width: 220px
     .description
@@ -58,7 +70,7 @@
         &__news
             &__mail
                 &__btn
-                    max-width: 100px
+                    max-width: 120px
                     font-size: 14px
                 &__input
                     font-size: 14px
