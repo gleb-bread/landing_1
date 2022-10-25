@@ -164,6 +164,8 @@ body {
 .big__link__container {
   padding: 80px 0;
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://hosting.renderforestsites.com/5699226/558313/media/dd2f47192ec19a29be1822de8ac02c13.jpg") center center/cover no-repeat;
+  background-size: inherit;
+  background-repeat: repeat;
 }
 .big__link__wrapper {
   -webkit-mask: url("https://static.rfstat.com/renderforest/images/website_maker_images/components/component-images/text14-3.4.0.svg") -2px top/auto 100% repeat-x;
@@ -1067,6 +1069,10 @@ body {
   }
   .hero__info__text {
     max-width: 100%;
+  }
+  .big__link__container {
+    background-size: inherit;
+    background-repeat: repeat;
   }
   .prossec__title {
     margin-bottom: 30px;
