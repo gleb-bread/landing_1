@@ -95,6 +95,11 @@
                 visibility: hidden
                 &__icon
                     margin-right: 5px
+                    &>svg
+                        fill: green
+                        display: none
+                        width: 15px
+                        height: 15px
         &__mail
             position: relative
             display: flex
@@ -127,6 +132,15 @@
                 visibility: hidden
                 &__icon
                     margin-right: 5px
+                    display: flex
+                    flex-direction: column
+                    justify-content: center
+                    align-items: center
+                    &>svg
+                        fill: green
+                        display: none
+                        width: 15px
+                        height: 15px
         &__text
             resize: none
             box-sizing: border-box

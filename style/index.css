@@ -677,6 +677,12 @@ body {
 .contact__form__name__error__icon {
   margin-right: 5px;
 }
+.contact__form__name__error__icon > svg {
+  fill: green;
+  display: none;
+  width: 15px;
+  height: 15px;
+}
 .contact__form__mail {
   position: relative;
   display: flex;
@@ -715,6 +721,16 @@ body {
 }
 .contact__form__mail__error__icon {
   margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact__form__mail__error__icon > svg {
+  fill: green;
+  display: none;
+  width: 15px;
+  height: 15px;
 }
 .contact__form__text {
   resize: none;
@@ -833,6 +849,12 @@ body {
 }
 .footer__news__mail__error__icon {
   margin-right: 10px;
+}
+.footer__news__mail__error__icon > svg {
+  fill: green;
+  display: none;
+  width: 15px;
+  height: 15px;
 }
 .footer__license {
   padding-top: 70px;
